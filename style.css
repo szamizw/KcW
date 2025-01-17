@@ -1,0 +1,43 @@
+/* Zapisz ten plik jako style.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb); /* Fioletowy i różowy gradient */
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #8e44ad; /* Fioletowy */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #8e44ad; /* Fioletowy */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d291bc; /* Jasny różowy */
+}
