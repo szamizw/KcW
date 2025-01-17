@@ -1,4 +1,3 @@
-/* Zapisz ten plik jako style.css */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -6,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #a18cd1, #fbc2eb); /* Fioletowy i różowy gradient */
+    background: linear-gradient(135deg, #8e44ad, #ff9a9e); /* Fioletowy i różowy gradient */
 }
 
 .container {
